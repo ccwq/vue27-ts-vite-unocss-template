@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@unocss/extractor-pug': ^0.45.13
   '@vitejs/plugin-vue': ^3.0.3
   lodash: ^4.17.21
   luss: ^3.0.5
@@ -17,6 +18,7 @@ dependencies:
   vue: registry.npmmirror.com/vue/3.2.38
 
 devDependencies:
+  '@unocss/extractor-pug': registry.npmmirror.com/@unocss/extractor-pug/0.45.13_pug@3.0.2
   '@vitejs/plugin-vue': registry.npmmirror.com/@vitejs/plugin-vue/3.0.3_vite@3.0.9+vue@3.2.38
   pug: registry.npmmirror.com/pug/3.0.2
   typescript: registry.npmmirror.com/typescript/4.8.2
@@ -242,6 +244,20 @@ packages:
     resolution: {integrity: sha512-EesxqFM6lPA6Ot5X4cyRcjJQsgpztrNFpxpu4HBIzbZvXLcoeG97bcLTASGSHPGWeL4baq0ur/47lM42dtjiMQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@unocss/core/-/core-0.45.13.tgz}
     name: '@unocss/core'
     version: 0.45.13
+    dev: true
+
+  registry.npmmirror.com/@unocss/extractor-pug/0.45.13_pug@3.0.2:
+    resolution: {integrity: sha512-VdWqRSCQ5IqjfhZJtOSs8lp+3lcpMOQlCX4kfEdQeRytSERexqxShJ9lvVCbbBw4G8q4q9iHnnulVUhpXB7XiA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@unocss/extractor-pug/-/extractor-pug-0.45.13.tgz}
+    id: registry.npmmirror.com/@unocss/extractor-pug/0.45.13
+    name: '@unocss/extractor-pug'
+    version: 0.45.13
+    peerDependencies:
+      pug: ^3.0.0
+    peerDependenciesMeta:
+      pug:
+        optional: true
+    dependencies:
+      pug: registry.npmmirror.com/pug/3.0.2
     dev: true
 
   registry.npmmirror.com/@unocss/inspector/0.45.13:
