@@ -3,5 +3,5 @@
 
 </script>
 <template lang="pug">
-.div.bg-green 你好foo
+.div.bg-green.mt10 你好foo
 </template>
