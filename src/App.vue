@@ -6,7 +6,7 @@ import Foo from "./components/Foo.vue"
 </script>
 
 <template>
-
+<div>
     <Foo></Foo>
     <div>
         <a href="https://vitejs.dev" target="_blank">
@@ -17,6 +17,7 @@ import Foo from "./components/Foo.vue"
         </a>
     </div>
     <HelloWorld msg="Vite + Vue"/>
+</div>
 </template>
 
 <style scoped>

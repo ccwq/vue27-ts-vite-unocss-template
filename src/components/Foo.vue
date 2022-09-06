@@ -2,6 +2,7 @@
 import {ref} from 'vue'
 const message = ref('Foo:Hello World')
 </script>
+
 <template lang="pug">
 .div.bg-green.mt10 {{message}}
 </template>
