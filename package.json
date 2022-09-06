@@ -1,28 +1,28 @@
 {
-  "name": "my-vite-vue-app",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc --noEmit && vite build",
-    "preview": "vite preview"
-  },
-  "dependencies": {
-    "lodash": "^4.17.21",
-    "luss": "^3.0.5",
-    "vue": "^2.7.10"
-  },
-  "devDependencies": {
-    "@types/node": "^18.7.14",
-    "@unocss/core": "^0.45.14",
-    "@unocss/extractor-pug": "^0.45.13",
-    "@vitejs/plugin-vue2": "^1.1.2",
-    "less": "^4.1.3",
-    "pug": "^3.0.2",
-    "typescript": "^4.6.4",
-    "unocss": "^0.45.13",
-    "vite": "^3.0.7",
-    "vue-tsc": "^0.39.5"
-  }
+    "name": "my-vite-vue-app",
+    "private": true,
+    "version": "0.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vue-tsc --noEmit && vite build",
+        "preview": "vite preview"
+    },
+    "dependencies": {
+        "lodash": "^4.17.21",
+        "luss": "^3.0.5",
+        "vue": "^2.7.10"
+    },
+    "devDependencies": {
+        "@types/node": "^18.7.14",
+        "@unocss/core": "^0.45.14",
+        "@unocss/extractor-pug": "^0.45.13",
+        "@vitejs/plugin-vue2": "^1.1.2",
+        "less": "^4.1.3",
+        "pug": "^3.0.2",
+        "typescript": "^4.6.4",
+        "unocss": "^0.45.13",
+        "vite": "^3.0.7",
+        "vue-tsc": "^0.39.5"
+    }
 }

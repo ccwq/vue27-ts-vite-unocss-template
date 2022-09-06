@@ -3,7 +3,7 @@ import vue from '@vitejs/plugin-vue2'
 import Unocss from 'unocss/vite'
 
 import extractorPug from '@unocss/extractor-pug'
-import { extractorSplit } from '@unocss/core'
+import {extractorSplit} from '@unocss/core'
 
 import {rules, extractorPugFactory} from "luss/dist/unocss-luss.js"
 import {presetUno} from "unocss";
@@ -19,20 +19,20 @@ export default defineConfig({
         }),
         Unocss({
             //@ts-ignore
-            rules:[...rules,],
-            presets:[presetUno()],
+            rules: [...rules,],
+            presets: [presetUno()],
             extractors: [
                 extractorPug(),
                 extractorSplit,
             ],
         }),
     ],
-    resolve:{
-        alias:{
+    resolve: {
+        alias: {
             "src": path.join(__dirname, "src"),
         }
     },
-    css:{
+    css: {
         preprocessorOptions: {
 
             // https://lesscss.org/usage/#less-options
