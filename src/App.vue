@@ -6,9 +6,9 @@ import Foo from "./components/Foo.vue"
 </script>
 
 <template>
-<div>
+<div class="w500x m-auto">
     <Foo></Foo>
-    <div>
+    <div class="flex jc-center">
         <a href="https://vitejs.dev" target="_blank">
             <img src="/vite.svg" class="logo" alt="Vite logo"/>
         </a>
